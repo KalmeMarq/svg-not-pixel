@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="#" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVG, not Pixel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="container">
+    <h1>PNG (8-bit/Pixelated/Whatever) to SVG Converter</h1>
+    <p>The darker bg isn't on the svg. It's just for layout flex visual good stuff</p>
+    <div class="wrapper">
+      <input type="file" id="pixel-png" accept=".png">
+      <label for="method">
+        Method
+        <select id="method">
+          <option value="Auto" selected>Auto</option>
+          <option value="horlines">Horizontal Lines Method</option>
+          <option value="blocks">Blocks Method</option>
+        </select>
+      </label>
+      <button onclick="document.getElementById('svgs').innerHTML = ''">Clear</button>
+    </div>
+    <div id="svgs">
+    </div>
+  </div>
+  <script type="module" src="./src/index.ts"></script>
+</body>
+</html>

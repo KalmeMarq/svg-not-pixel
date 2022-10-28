@@ -1,0 +1,17 @@
+{
+  "name": "svg-not-pixel",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -r git@github.com:KalmeMarq/svg-not-pixel.git -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "typescript": "^4.8.4",
+    "vite": "^3.2.0"
+  }
+}
