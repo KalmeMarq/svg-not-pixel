@@ -1,5 +1,7 @@
 # Best PNG (8-bit/Pixelated/Whatever) to SVG Converter
 
+[Website](https://KalmeMarq.github.io/svg-not-pixel)
+
 More useful for small/pixelated pngs that you want to scale while keep it crispy. Or just use "image-rendering": "pixelated".
 
 It tries two methods. Horizontal lines and then blocks (still needs improvement). Whichever is the smallest will be choosen.
