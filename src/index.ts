@@ -213,7 +213,7 @@ function convertToSvg(img: HTMLImageElement, filename: string) {
 
     const m = new Image();
     m.className = 'down';
-    m.src = '/download.png';
+    m.src = 'download.png';
 
     const info = document.createElement('div');
     info.className = 'info';
